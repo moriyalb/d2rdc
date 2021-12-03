@@ -3,14 +3,12 @@ import simplejson as json
 import hashlib
 import codecs
 
-#这里可以考虑客户端加盐，不过意义不大
-MD5_SALT = ""
 SUPER_USER = {
-	"mario": "b32d73e56ec99bc5ec8f83871cde708a",
+	"mario": "b05e2462793eda95c7ae95c77bbcf9d2",
 	#"safin": [TODO_YOUR_PWD_MD5] 
 	
 	#Md5 use method blow
-	#md5(pwd)
+	#md5(pwd + `salt`)
 }
 
 
